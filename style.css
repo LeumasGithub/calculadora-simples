@@ -1,0 +1,56 @@
+*{
+    preenchimento :  0 ;
+    margem :  0 ;
+    font-family :  'poppins' , sem serifa;
+}
+
+. principal {
+    largura :  400 px ;
+    altura :  450 px ;
+    cor de fundo : branco;
+    posição : absoluto;
+    borda :  5 px preto sólido;
+    raio da borda :  6 px ;
+}
+
+ corpo {
+   cor de fundo :  # 495250 ;
+   exibição : grade;
+   altura :  100 vh ;
+   itens de lugar : centro;
+}
+
+. entrada principal  [ tipo = 'texto' ] {
+    largura :  88 % ;
+    posição : relativa;
+    altura :  80 px ;
+    superior :  5 px ;
+    alinhamento de texto : direito;
+    preenchimento :  3 px  6 px ;
+    contorno : nenhum;
+    tamanho da fonte :  40 px ;
+    borda :  5 px preto sólido;
+    exibição : flexível;
+    margem : automática;
+    raio da borda :  6 px ;
+    cor : preto;
+}
+. btn  input [ tipo = 'botão' ]{
+    largura : 90 px ;
+    preenchimento :  2 px ;
+    margem :  2 px  0 px ;
+    posição : relativa;
+    esquerda :  13 px ;
+    superior :  20 px ;
+    altura :  60px ; _
+    cursor : ponteiro;
+    tamanho da fonte :  18 px ;
+    transição :  0,5 s ;
+    cor de fundo :  # 495250 ;
+    raio da borda :  6 px ;
+    cor : branco;
+}
+. btn  input [ tipo = 'botão' ] : passe o mouse {
+    cor de fundo : preto;
+    cor : branco;
+}
